@@ -1,0 +1,64 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center-box {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+.center * {
+    text-align: center;
+}
+
+.heading {
+    color: rgba(0,0,0,0.8);
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.3rem;
+}
+
+.description {
+    color: rgba(0,0,0,0.7);
+    font-size: 1.5rem;
+}
+
+.btnsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    background: rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+}
+
+.btnsection button {
+    background: rgba(0,0,0,0.1);
+    color: rgba(0,0,255,0.8);
+    padding: 0.6rem 0.8rem;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.2rem;
+}
+
+.btnsection .value {
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
